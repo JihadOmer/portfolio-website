@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import MunchyMaster from "@/public/MunchyMaster.jpg";
-import cms from "@/public/cms.jpg";
-import portfolio from "@/public/portfolio.jpg";
+import Cms from "@/public/Cms.jpg";
+import Portfolio from "@/public/Portfolio.jpg";
 
 export const links = [
   {
@@ -57,14 +57,14 @@ export const projectsData = [
     description:
       "Contributed to a team of 6 devs in an Agile/ Scrum environment to build a CMS for an overseas charity to help them to show their work to the public.",
     tags: ["React", "Node.js", "Postgres", "Express", "Ant Design"],
-    imageUrl: cms,
+    imageUrl: Cms,
   },
   {
     title: "Personal Portfolio Website",
     description:
       "Proudly built THIS personal website to let visitors to know more about me and my latest and upcoming projects ",
     tags: ["Next.js", "Node.js", "TypeScript", "Express.js", "TailwindCSS"],
-    imageUrl: portfolio,
+    imageUrl: Portfolio,
   },
 ] as const;
 
