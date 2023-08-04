@@ -35,52 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Junior Software Developer @ CodeYourFuture",
+    location: "Manchester, UK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I contrubutng in building and maintaing software that can are used in-house or by charities.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - current",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "MunchyMaster",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A Full stack app which allows user to list their favourite restaurants and also add a review and pricing range to allow them to quickly decide their next meal !",
+    tags: ["React", "Node.js", "Postgres", "Express"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "CMS for Charity Orginization ",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Contributed to a team of 6 devs in an Agile/ Scrum environment to build a CMS for an overseas charity to help them to show their work to the public.",
+    tags: ["React", "Node.js", "Postgres", "Express", "Ant Design"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Personal Portfolio Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Proudly built THIS personal website to let visitors to know more about me and my latest and upcoming projects ",
+    tags: ["Next.js", "Node.js", "TypeScript", "Express.js", "TailwindCSS"],
+    imageUrl: rmtdevImg,
   },
 ] as const;
 
