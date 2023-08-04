@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import MunchyMaster from "@/public/MunchyMaster.jpg";
+import cms from "@/public/cms.jpg";
+import portfolio from "@/public/portfolio.jpg";
 
 export const links = [
   {
@@ -50,21 +50,21 @@ export const projectsData = [
     description:
       "A Full stack app which allows user to list their favourite restaurants and also add a review and pricing range to allow them to quickly decide their next meal !",
     tags: ["React", "Node.js", "Postgres", "Express"],
-    imageUrl: corpcommentImg,
+    imageUrl: MunchyMaster,
   },
   {
     title: "CMS for Charity Orginization ",
     description:
       "Contributed to a team of 6 devs in an Agile/ Scrum environment to build a CMS for an overseas charity to help them to show their work to the public.",
     tags: ["React", "Node.js", "Postgres", "Express", "Ant Design"],
-    imageUrl: rmtdevImg,
+    imageUrl: cms,
   },
   {
     title: "Personal Portfolio Website",
     description:
       "Proudly built THIS personal website to let visitors to know more about me and my latest and upcoming projects ",
     tags: ["Next.js", "Node.js", "TypeScript", "Express.js", "TailwindCSS"],
-    imageUrl: rmtdevImg,
+    imageUrl: portfolio,
   },
 ] as const;
 
