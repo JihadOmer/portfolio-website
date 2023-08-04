@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Junior Software Developer @ CodeYourFuture",
     location: "Manchester, UK",
     description:
-      "I contrubutng in building and maintaing software that can are used in-house or by charities.",
+      "I contrubutng in building and maintaing software that can are used in-house or by charities to help Refugee and low income individual and in tech to find a job in tech.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - current",
   },
