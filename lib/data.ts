@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import Cms from "@/public/Cms.jpg";
-import Portfolio from "@/public/Portfolio.jpg";
+import cms from "@/public/cms.jpg";
+import portfolio from "@/public/portfolio.jpg";
 import restaurant from "@/public/restaurant.jpg";
 
 export const links = [
@@ -57,14 +57,14 @@ export const projectsData = [
     description:
       "https://starter-kit-fhvk.onrender.com. \n  Contributed to a team of 6 devs in an Agile/ Scrum environment to build a Content Management System (CMS) for an overseas charity to help them to show their work to the public.",
     tags: ["React", "Node.js", "PostgreSQL", "Express", "Ant Design"],
-    imageUrl: Cms,
+    imageUrl: cms,
   },
   {
     title: "Personal Portfolio Website",
     description:
       "Proudly built THIS personal website to let visitors to know more about me, my latest and upcoming projects ",
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Vercel"],
-    imageUrl: Portfolio,
+    imageUrl: portfolio,
   },
 ] as const;
 
