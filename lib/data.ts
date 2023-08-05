@@ -1,3 +1,4 @@
+
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -38,7 +39,7 @@ export const experiencesData = [
     title: "Junior Software Developer @ CodeYourFuture",
     location: "Manchester, UK",
     description:
-      "I contrubutng in building and maintaing software that can are used in-house or by charities to help Refugee and low income individual and in tech to find a job in tech.",
+      "I am actively engaged in the development and upkeep of cutting-edge software tailored for internal use or by charitable organizations, empowering refugees and individuals from low-income backgrounds to embark on transformative tech careers.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - current",
   },
@@ -48,7 +49,7 @@ export const projectsData = [
   {
     title: "MunchyMaster",
     description:
-      "A Full stack app which allows user to list their favourite restaurants and also add a review and pricing range to allow them to quickly decide their next meal !",
+      "A Full stack app which allows user to list their favourite restaurants and also add a review and pricing range to allow them to quickly decide their next meal !!",
     tags: ["React", "Node.js", "Postgres", "Express"],
     imageUrl: MunchyMaster,
   },
@@ -62,7 +63,7 @@ export const projectsData = [
   {
     title: "Personal Portfolio Website",
     description:
-      "Proudly built THIS personal website to let visitors to know more about me and my latest and upcoming projects ",
+      "Proudly built THIS personal website to let visitors to know more about me, my latest and upcoming projects ",
     tags: ["Next.js", "Node.js", "TypeScript", "Express.js", "TailwindCSS"],
     imageUrl: Portfolio,
   },
@@ -76,9 +77,10 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "MongoDB",
+  "Docker",
   "Git",
   "Tailwind",
-  "MongoDB",
   "Redux",
   "Express",
   "PostgreSQL",
