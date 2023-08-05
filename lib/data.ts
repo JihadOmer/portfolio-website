@@ -1,4 +1,3 @@
-
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -39,7 +38,7 @@ export const experiencesData = [
     title: "Junior Software Developer @ CodeYourFuture",
     location: "Manchester, UK",
     description:
-      "I am actively engaged in the development and upkeep of cutting-edge software tailored for internal use or by charitable organizations, empowering refugees and individuals from low-income backgrounds to embark on transformative tech careers.",
+      " Contributing to the development and upkeep of software tailored for internal use or by charitable organizations to empower refugees and individuals from low-income backgrounds to start a career in tech",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - current",
   },
@@ -49,22 +48,22 @@ export const projectsData = [
   {
     title: "MunchyMaster",
     description:
-      "A Full stack app which allows user to list their favourite restaurants and also add a review and pricing range to allow them to quickly decide their next meal !!",
+      " https://munchymaster.netlify.app \n  Full stack app for busy developer!! which allows them to list, review and price their favourite restaurants so they can quickly decide their next meal without any hassle !!",
     tags: ["React", "Node.js", "Postgres", "Express"],
     imageUrl: restaurant,
   },
   {
     title: "CMS for Charity Orginization ",
     description:
-      "Contributed to a team of 6 devs in an Agile/ Scrum environment to build a CMS for an overseas charity to help them to show their work to the public.",
-    tags: ["React", "Node.js", "Postgres", "Express", "Ant Design"],
+      "https://starter-kit-fhvk.onrender.com. \n  Contributed to a team of 6 devs in an Agile/ Scrum environment to build a Content Management System (CMS) for an overseas charity to help them to show their work to the public.",
+    tags: ["React", "Node.js", "PostgreSQL", "Express", "Ant Design"],
     imageUrl: Cms,
   },
   {
     title: "Personal Portfolio Website",
     description:
       "Proudly built THIS personal website to let visitors to know more about me, my latest and upcoming projects ",
-    tags: ["Next.js", "Node.js", "TypeScript", "Express.js", "TailwindCSS"],
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Vercel"],
     imageUrl: Portfolio,
   },
 ] as const;
