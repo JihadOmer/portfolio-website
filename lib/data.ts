@@ -3,9 +3,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import MunchyMaster from "@/public/MunchyMaster.jpg";
 import Cms from "@/public/Cms.jpg";
 import Portfolio from "@/public/Portfolio.jpg";
+import MunchyMaster from "@/public/MunchyMaster.jpg";
 
 export const links = [
   {
