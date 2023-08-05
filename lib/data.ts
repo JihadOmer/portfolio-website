@@ -5,7 +5,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Cms from "@/public/Cms.jpg";
 import Portfolio from "@/public/Portfolio.jpg";
-import MunchyMaster from "@/public/MunchyMaster.jpg";
+import restaurant from "@/public/restaurant.jpg";
 
 export const links = [
   {
@@ -51,7 +51,7 @@ export const projectsData = [
     description:
       "A Full stack app which allows user to list their favourite restaurants and also add a review and pricing range to allow them to quickly decide their next meal !!",
     tags: ["React", "Node.js", "Postgres", "Express"],
-    imageUrl: MunchyMaster,
+    imageUrl: restaurant,
   },
   {
     title: "CMS for Charity Orginization ",
