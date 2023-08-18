@@ -55,14 +55,14 @@ export const projectsData = [
   {
     title: "CMS for Charity Orginization ",
     description:
-      "https://starter-kit-fhvk.onrender.com. \n  Contributed to a team of 6 devs in an Agile/ Scrum environment to build a Content Management System (CMS) for an overseas charity to help them to show their work to the public.",
+      "https://starter-kit-fhvk.onrender.com \n  Contributed to a team of 6 devs in an Agile/ Scrum environment to build a Content Management System (CMS) for an overseas charity to help them to show their work to the public.",
     tags: ["React", "Node.js", "PostgreSQL", "Express", "Ant Design"],
     imageUrl: cms,
   },
   {
     title: "Personal Portfolio Website",
     description:
-      "Proudly built THIS personal website to let visitors to know more about me, my latest and upcoming projects ",
+      "a website to let visitors to know more about me, my latest and upcoming projects ",
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion", "Vercel"],
     imageUrl: portfolio,
   },
